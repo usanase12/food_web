@@ -1,0 +1,209 @@
+*{
+    background-color: white;
+}
+.image-container{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 100px;
+    margin-left: 150PX;
+    margin-top: 60PX;
+}
+.image1{
+    flex: 0 0 auto; /* Allow the images to maintain their original size */
+    margin-right: 20px; /* Adjust spacing between photos */
+    width: 250px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust height while maintaining aspect ratio */
+}
+.image1 img{
+    max-width: 100%;
+    height: auto;
+}
+.image-container2{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 100px;
+    margin-left: 150PX;
+    margin-top: 60PX;
+}
+H1{
+   margin-left: 40%; 
+}
+.image2 img{
+    margin-left: 300px;
+}
+.image2 h2{
+    margin-left: 600px;
+}
+.image2 h4{
+    margin-left: 600px;
+}
+.image2 p{
+    margin-left: 200px;
+    margin-right: 00px;
+}
+header{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 30px;
+
+}
+#pagination {
+margin-top: 20px;
+margin-bottom: 100px;
+    }
+    
+ #pagination_container {
+    display: flex;
+     justify-content: center;
+    align-items: center;  
+}
+
+ #pagination_container button {
+    padding: 12px 15px;
+     border: 0px;
+    background-color: white; 
+}
+
+ #pagination_container #default_button {
+    background-color: black;
+    color: white; 
+}
+
+ #pagination_container button:hover {
+    background: black;
+    color: white;
+}   
+#image1{
+    display: flex;
+}
+#image1 img{
+    width: 50px;
+    height: 50px;
+
+}
+
+.footer{
+    display: flex;
+   justify-content: space-between;
+   padding-right: 60PX;
+   padding-left: 80PX;
+}
+.tags {
+    text-align: center;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .tags h5 {
+    margin-bottom: 10px;
+  }
+  
+  .tags button {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .tags button:hover {
+    background-color: #45a049;
+  }
+  @media (min-width: 1024px) {
+    .button-container {
+      flex-wrap: wrap;
+      max-width: 400px;
+    }
+}
+#buttonn{
+    background-color: black;
+}
+/* Media queries for responsiveness */
+/* Media queries for responsiveness */
+@media (max-width: 600px) {
+    .image1 {
+      flex: 0 0 calc(100% - 20px);
+    }
+  
+    .image-container,
+    .image-container2 {
+      flex-direction: column;
+    }
+  
+    .image-container .image1,
+    .image-container2 .image1 {
+      margin-bottom: 20px;
+    }
+  
+    .image1 h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+  
+    .image1 p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 768px) {
+    /* Styles for small-sized tablets and medium-sized mobile devices */
+    .image-container,
+    .image-container2 {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px) {
+    /* Styles for large-sized mobile devices and tablets (portrait) */
+    .image-container,
+    .image-container2 {
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+  }
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    /* Styles for tablets (landscape) */
+    .image-container,
+    .image-container2 {
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+  }
+  
+  @media (min-width: 1281px) and (max-width: 1440px) {
+    /* Styles for small-sized desktops and laptops */
+    .image-container,
+    .image-container2 {
+      margin-left: 150px;
+      margin-right: 150px;
+    }
+  }
+  
+  @media (min-width: 1441px) and (max-width: 1920px) {
+    /* Styles for medium-sized desktops and laptops */
+    .image-container,
+    .image-container2 {
+      margin-left: 200px;
+      margin-right: 200px;
+    }
+  }
+  
+  @media (min-width: 1921px) {
+    /* Styles for large-sized desktops and laptops */
+    .image-container,
+    .image-container2 {
+      margin-left: 300px;
+      margin-right: 300px;
+    }
+  }
+  
